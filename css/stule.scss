@@ -1,0 +1,35 @@
+body {
+  margin: 0%;
+  padding: 0%;
+  background-color: rgb(208, 208, 208);
+}
+.search-box {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 1%;
+  background-color: white;
+  input {
+    margin: 1%;
+  }
+  .lang {
+    margin: 1%;
+  }
+}
+#content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  .box {
+    background-color: white;
+    width: 90vh;
+    padding: 1%;
+    img {
+      width: 90vh;
+    }
+    hr {
+      margin-bottom: 15%;
+    }
+  }
+}
